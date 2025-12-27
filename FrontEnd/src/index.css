@@ -1,0 +1,56 @@
+/* @import "tailwindcss"; */
+
+.container {
+    text-align: center;
+    margin: 5% 25%;
+    background-color: azure;
+    padding: 55px 5px;
+    border: 1px solid rgb(209, 243, 243);
+}
+
+button {
+    padding: 5px 7px;
+}
+
+input {
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 2px;
+    margin-right: 1px;
+}
+
+#add {
+    color: black;
+    background-color: rgb(106, 250, 106);
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+#logout {
+    background-color: rgb(230, 68, 68);
+    border-radius: 3px;
+    border: none;
+
+}
+
+#multiple {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#delete {
+  color: red;
+  background-color: azure;
+  border: none;
+  cursor: pointer;
+  margin-right: 30px;
+}
+#delete:hover{
+    font-size: 13px;
+}
+#logout:hover{
+    background-color: rgb(231, 36, 36) ;
+    padding: 8px;
+
+}
