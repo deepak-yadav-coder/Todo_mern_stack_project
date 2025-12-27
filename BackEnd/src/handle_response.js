@@ -6,7 +6,7 @@ function handleSuccess(res, data, status, sucMsg = 'Success') {
 
 function handleError(res, error, status, errMsg = 'Error') {
     res.status(status).send({ error, status: errMsg, statuscode: status });
- 
+
 }
 
 module.exports = {

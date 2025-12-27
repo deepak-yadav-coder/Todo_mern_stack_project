@@ -9,7 +9,7 @@ const { handleError } = require('./src/handle_response');
 dotenv.config();
 const app = express();
 
-//middlewares
+console.log('1111111111111111111  testing of git revert')
 app.use(cors({
     origin: process.env.FRONTEND_URL,
     credentials: true,
@@ -23,6 +23,7 @@ mongoose.connect(process.env.MONGODB_URI)
     .then(working => console.log('data base connected successfully'))
     .catch(error => 'something wrong to connection with db');
 
+console.log('222222222222222 testing of git revert')
 
 app.use(express.json());
 app.use('/api', router);
